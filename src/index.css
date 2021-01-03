@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat, sans-serif;
+}
+
+header {
+  background-image: linear-gradient(to right, salmon, whitesmoke);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+
+header input {
+  display: inline-block;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: none;
+  outline: none;
+  border: none;
+  appearance: none;
+}
+
+header:before {
+  content: "/r/";
+  display: inline-block;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.articles article {
+  padding: 30px 15px;
+  background-color: whitesmoke;
+}
+.articles article:hover {
+  background-color: lightgray;
+  /* background-image: linear-gradient(to left, salmon, whitesmoke); */
+}
+
+.articles article a {
+  text-decoration: none;
+}
+
+.articles article h3 {
+  color: #333;
+  font-weight: 300;
+}
